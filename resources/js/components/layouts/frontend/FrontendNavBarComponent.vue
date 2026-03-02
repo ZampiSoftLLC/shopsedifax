@@ -30,7 +30,7 @@
                             <router-link class="header-nav-menu"
                                 :class="checkIsPathAndRoutePathSame('/home') ? 'router-link-active router-link-exact-active' : ''"
                                 :to="{ name: 'frontend.home' }">
-                                {{ $t("label.home") }}
+                                {{ $t("label.home") }} - TEST
                             </router-link>
                         </li>
 
